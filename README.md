@@ -1,3 +1,3 @@
-# webpack-template
+# Dropdown Menu
 
-Configured webpack template
+Practice JavaScript techniques to create a dropdown menu
