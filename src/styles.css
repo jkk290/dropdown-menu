@@ -1,3 +1,40 @@
-body {
-  background-color: lightgray;
+#dropdown-container {
+  width: 100px;
+}
+
+#menu-title.closed {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: royalblue;  
+  border-radius: 5px;
+  text-align: center;
+  margin: 0;
+}
+
+#menu-title.opened {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: royalblue;  
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-align: center;
+  margin: 0;
+}
+
+#dropdown-items {
+  margin: 0px;
+  background-color: rgb(108, 137, 223);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: white;
+  padding-left: 10px;
+}
+
+p {
+  margin: 0;
+}
+.hidden {
+  display: none;
 }
